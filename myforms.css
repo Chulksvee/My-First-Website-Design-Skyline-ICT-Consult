@@ -1,0 +1,385 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container-form{
+    width: 65%;
+    text-align: center;
+    background-color: lightblue;
+    margin: auto;
+    background-image: url(images/pexels-andreea-ch-1166644\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+
+/* here is my input design*/
+input[type=text]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+ 
+input[type=text]:focus{
+    font-size: 15px;
+    outline: none;
+    color: red;
+}
+
+/* here is the design for email */
+input[type=email]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+input[type=email]:focus{
+    font-size: 15px;
+    outline: none;
+    color: red;
+}
+
+/* here is the design for telephone */
+input[type=tel]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+input[type=tel]:focus{
+    font-size: 15px;
+    outline: none;
+    color: red;
+}
+
+/* here is the design for password */
+input[type=password]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+input[type=password]:focus{
+    font-size: 15px;
+    outline: none;
+    color: red;
+}
+
+/* here is my check input design */
+.check{
+    padding: 5px;
+}
+
+/* here is my select botton */
+select{
+    width: 50%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid rgb(174, 173, 173);
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+}
+
+/* here is my date design */
+input[type=date]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+/* here is the type of file design */
+input[type=file]{
+    width: 60%;
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+/* here is the submit botton */
+input[type=submit]{
+    width: 20%;
+    padding: 2%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+/* here is the reset botton */
+input[type=reset]{
+    width: 20%;
+    padding: 2%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+/* here is my about you design */
+textarea{
+    width: 60%;
+    padding: 2%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent;
+}
+
+
+
+::placeholder{
+    font-size: 15px;
+    color:darkgreen;
+    text-transform: capitalize;
+}
+
+label{
+    font-size: 20px;
+    
+}
+
+/* here is my mobile responsiveness */
+
+@media screen and (max-width:1027px) {
+    .container-form{
+        background-color: lightgray;
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 400px) and (max-width: 909px){
+    .container-form{
+        width: 100%;
+        text-align: center;
+        background-color: lightblue;
+        margin: auto;
+        background-image: url(images/pexels-andreea-ch-1166644\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+
+    /* here is my input design*/
+input[type=text]{
+    width: 90%;
+    background-color: white;
+    background: transparent;
+    /* padding: 3%; */
+    /* border-radius: 7px; */
+    
+    
+    /* border: 2px solid gray;
+    background: transparent; */
+}
+    
+input[type=text]:focus{
+    color: red;
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+/* input[type=text]:hover{
+    border: 2px dashed darkgreen;
+    background-color: rgb(83, 162, 83);
+} */
+
+/* here is the design for email */
+input[type=email]{
+    width: 90%;
+    background-color: white;
+    background: transparent;
+    /* padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent; */
+}
+
+input[type=email]:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+/* here is the design for telephone */
+input[type=tel]{
+    width: 90%;
+    background-color: white;
+    background: transparent;
+    /* padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent; */
+}
+
+input[type=tel]:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+/* here is the design for password */
+input[type=password]{
+    width: 90%;
+    background-color: white;
+    background: transparent;
+    /* padding: 3%;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background: transparent; */
+}
+
+input[type=password]:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+/* here is my select design */
+select{
+    width: 100%;
+    background-color: white;
+    background: transparent;
+    /* padding: 15px;
+    border-radius: 7px;
+    border: 2px solid rgb(174, 173, 173);
+    font-size: 15px;
+    background-color: transparent;
+    color: black; */
+}
+
+
+/* here is my date design */
+input[type=date]{
+    width: 90%;
+    background-color: white;
+    color: red;
+    background: transparent;
+    /* padding: 3%;
+    border-radius: 7px; */
+    cursor: pointer;
+    /* border: 2px solid gray;
+    background: transparent; */
+}
+
+/* here is the type of file design */
+input[type=file]{
+    width: 90%;
+    background-color: white;
+    color: red;
+    background: transparent;
+    /* padding: 3%;
+    border-radius: 7px;
+    cursor: pointer; */
+    /* border: 2px solid gray;
+    background: transparent; */
+}
+
+/* here is the submit botton */
+input[type=submit]{
+    width: 50%;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    /* padding: 2%;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px; */
+    /* border: 2px solid gray;
+    background: transparent; */
+}
+
+input[type=submit]:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+   
+}
+
+/* here is the reset botton */
+input[type=reset]{
+    width: 50%;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    /* padding: 2%;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px; */
+    /* border: 2px solid gray;
+    background: transparent; */
+}
+
+input[type=reset]:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+/* here is my about you design */
+textarea{
+    width: 90%;
+    background-color: white;
+    background: transparent;
+}
+
+textarea:focus{
+    background-color: white;
+    border: 2px solid darkgreen;
+}
+
+
+::placeholder{
+    font-size: 15px;
+    color:red;
+    text-transform: capitalize;
+}
+
+label{
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
